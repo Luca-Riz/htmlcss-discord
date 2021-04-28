@@ -145,7 +145,7 @@ header .btn a {
 /* fine jumbotron */
 
 main {
-    margin: 150px 0;
+    margin: 150px 0 0 0;
 }
 
 /* inizio main */
@@ -176,6 +176,19 @@ main section .text h2 {
     margin: -10px 0;
 }
 
+.center {
+    text-align: center;
+}
+
+section .center .btn.scarica {
+    background-color: #8ea1e1;
+    display: inline-block;
+    margin: 30px 0 100px 0;
+}
+
+section .center .btn.scarica a {
+    color: white;
+}
 
 /* fine section */
 
