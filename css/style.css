@@ -175,7 +175,9 @@ footer .cont-w {
     width: 70%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
+    background-color: black;
 }
+
 
 footer nav div {
     float: left;
@@ -191,8 +193,29 @@ footer nav div:not(:first-child) {
 }
 
 
+footer .bottom {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+footer .logo {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 0;
+}
+
+footer hr {
+    color: #8ea1e1;
+}
+
 footer .registrati {
-    
+    display: inline-block;
+    background-color: #8ea1e1;
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
 }
 
 /* fine footer */
@@ -243,13 +266,12 @@ footer .registrati {
 } */
 
 .debug footer{
-    height: 200px;
+    /* height: 200px; */
     background-color: lightgreen;
 }
 
-.debug footer .cont-w {
-    background-color: lightgray;
-    border: 1px solid black;
+.debug .bottom {
+    border: 1px solid lightgrey;
 }
 
 .debug .ita {
@@ -258,7 +280,9 @@ footer .registrati {
     border: 1px solid black;
 }
 
-
+/* .debug footer .logo {
+    border: 1px solid black;
+} */
 
 .debug footer nav div:not(:first-child) {
     background-color: magenta;
