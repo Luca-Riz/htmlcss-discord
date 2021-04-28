@@ -11,7 +11,7 @@
 
 /* inizio common */
 
-.cont-w:not(:last-child) {
+.cont-w {
     width: 70%;
     margin: auto;
     position: relative;
@@ -171,24 +171,81 @@ main section .text h2 {
 
 /* inizio footer */
 
-footer .cont-w {
+footer {
+    background-color: #23272a;
+}
+
+footer .cont-width {
     width: 70%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
 }
 
 
-footer nav div {
+footer nav > div {
     float: left;
-    margin: calc(15% / 10);
+    margin: 20px calc(15% / 5) 20px 0;
 }
 
-.ita {
+/* inizio ita */
+footer .ita {
     width: 25%;
 }
 
-footer nav div:not(:first-child) {
+footer .ita h3 {
+    color:  #8ea1e1;
+    font-size: 35px;
+}
+
+.liano{
+    display: inline-block;
+    color: white;
+    margin: 10px 3px;
+}
+
+footer .social {
+    height: 50px;
+}
+
+footer .social i {
+    color: white;
+    margin: 10px;
+    line-height: 30px;
+}
+
+footer .ita img {
+    height: 16px;
+    display: inline-block;
+
+}
+
+/* fine ita */
+
+/* inizio prodotto */
+
+.prodotto {
+    line-height: 1.8;
+}
+
+footer h5 {
+    font-size: 20px;
+    color: #8ea1e1;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+/* fine prodotto */
+
+
+/* tutti tranne quello di sinistra */
+footer nav > div:not(:first-child) {
     width: 15%;
 }
 
@@ -265,27 +322,30 @@ footer .registrati {
 
 } */
 
-.debug footer{
-    /* height: 200px; */
-    background-color: lightgreen;
-}
+/* .debug footer{
+    height: 200px;
+} */
 
-.debug .bottom {
+/* .debug .bottom {
     border: 1px solid lightgrey;
-}
+} */
 
-.debug .ita {
+/* .debug .ita {
     background-color: lime;
     height: 100px;
     border: 1px solid black;
-}
+} */
 
 /* .debug footer .logo {
     border: 1px solid black;
 } */
 
-.debug footer nav div:not(:first-child) {
+/* .debug footer nav div:not(:first-child) {
     background-color: magenta;
     height: 100px;
     border: 1px solid black;
+} */
+
+.debug footer nav div {
+    border: 1px solid red;
 }
