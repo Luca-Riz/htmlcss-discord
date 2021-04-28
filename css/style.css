@@ -27,9 +27,9 @@
     text-decoration: none;
 }
 
-.bnt:hover a{
+.btn:hover a{
     text-decoration: underline;
-} /* perchè non funziona? */
+}
 
 h2 {
     font-size: 45px;
@@ -221,8 +221,7 @@ footer {
 } */
 
 .debug .wave {
-    height: 100px;
-    background-color: orange;
+    border: 1px solid black;
 
 }
 
