@@ -223,7 +223,7 @@ footer .ita img {
 
 /* inizio prodotto */
 
-.prodotto {
+.ul-bottom {
     line-height: 1.8;
 }
 
@@ -232,8 +232,12 @@ footer h5 {
     color: #8ea1e1;
 }
 
-footer li {
-    text-decoration: none;
+footer ul {
+    list-style-type: none;
+}
+
+footer li:hover a {
+    text-decoration: underline;
 }
 
 footer a {
@@ -346,6 +350,6 @@ footer .registrati {
     border: 1px solid black;
 } */
 
-.debug footer nav div {
+/* .debug footer nav div {
     border: 1px solid red;
-}
+} */
