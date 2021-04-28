@@ -11,7 +11,7 @@
 
 /* inizio common */
 
-.cont-w {
+.cont-w:not(:last-child) {
     width: 70%;
     margin: auto;
     position: relative;
@@ -39,6 +39,7 @@ h2 {
     font-size: 22px;
     line-height: 1.5;
 }
+
 
 
 /* fine common */
@@ -170,8 +171,28 @@ main section .text h2 {
 
 /* inizio footer */
 
-footer {
-    height: 200px;
+footer .cont-w {
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer nav div {
+    float: left;
+    margin: calc(15% / 10);
+}
+
+.ita {
+    width: 25%;
+}
+
+footer nav div:not(:first-child) {
+    width: 15%;
+}
+
+
+footer .registrati {
+    
 }
 
 /* fine footer */
@@ -223,6 +244,24 @@ footer {
 
 .debug footer{
     height: 200px;
-    background-color: rgb(0, 255, 64);
+    background-color: lightgreen;
+}
 
+.debug footer .cont-w {
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+.debug .ita {
+    background-color: lime;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+
+.debug footer nav div:not(:first-child) {
+    background-color: magenta;
+    height: 100px;
+    border: 1px solid black;
 }
