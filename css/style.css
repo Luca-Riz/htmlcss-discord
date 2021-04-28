@@ -166,10 +166,6 @@ main section .text h2 {
 
 /* fine section */
 
-.wave {
-    height: 100px;
-}
-
 /* fine main */
 
 /* inizio footer */
@@ -220,10 +216,10 @@ footer {
     border: 1px solid black;
 } */
 
-.debug .wave {
+/* .debug .wave {
     border: 1px solid black;
 
-}
+} */
 
 .debug footer{
     height: 200px;
