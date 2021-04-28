@@ -13,7 +13,6 @@
 
 .cont-w {
     width: 70%;
-    height: 80px;
     margin: auto;
     position: relative;
     font-family: 'Roboto', sans-serif;
@@ -28,13 +27,18 @@
     text-decoration: none;
 }
 
-.bnt:hover {
+.bnt:hover a {
     text-decoration: underline;
 }
 
 /* fine common */
 
 /* inizio header */
+
+header .cont-w {
+    height: 80px;
+}
+
 header {
     background-color: #3161e0;
     width: 100%;
@@ -86,18 +90,54 @@ header .btn a {
 
 /* inizio jumbotron */
 
+.jumbotron {
+    font-size: 24px;
+}
+
 .jumbotron img {
     width: 100%;
     position: relative;
 }
 
 .jumbotron .cont-w {
+    width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
 }
 
+.jumbotron h1 {
+    font-size: 45px;
+}
+
+.jumbotron p {
+    margin: 40px 0;
+}
+
+.jumbotron .btn-container .btn {
+    display: inline-block;
+}
+
+.jumbotron .btn-container .scarica{
+    background-color: white;
+    margin-right: 20px;
+}
+
+.jumbotron .btn-container .scarica a {
+    color: black;
+}
+
+.jumbotron .btn-container .apri{
+    background-color:black;
+
+}
+
+.jumbotron .btn-container .apri a {
+    color:  white;
+}
 
 /* fine jumbotron */
 
@@ -153,11 +193,11 @@ footer {
   
 } */
 
-.debug .jumbotron .cont-w {
+/* .debug .jumbotron .cont-w {
     border: 1px solid black;
     height: 80px;
     background-color: red;
-}
+} */
 
 .debug section .img, .debug section .text {
     height: 100px;
