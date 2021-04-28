@@ -31,6 +31,16 @@
     text-decoration: underline;
 }
 
+h2 {
+    font-size: 45px;
+}
+
+.jumbotron, main {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
 /* fine common */
 
 /* inizio header */
@@ -90,10 +100,6 @@ header .btn a {
 
 /* inizio jumbotron */
 
-.jumbotron {
-    font-size: 24px;
-}
-
 .jumbotron img {
     width: 100%;
     position: relative;
@@ -107,10 +113,6 @@ header .btn a {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-}
-
-.jumbotron h1 {
-    font-size: 45px;
 }
 
 .jumbotron p {
@@ -141,6 +143,10 @@ header .btn a {
 
 /* fine jumbotron */
 
+main {
+    margin: 150px 0;
+}
+
 /* inizio main */
 /* inizio section */
 
@@ -152,6 +158,10 @@ main section .img {
 main section .text {
     width: 30%;
     float: right;
+}
+
+main section .text h2 {
+    margin-bottom: 50px;
 }
 
 /* fine section */
@@ -199,8 +209,7 @@ footer {
     background-color: red;
 } */
 
-.debug section .img, .debug section .text {
-    height: 100px;
+/* .debug section .img, .debug section .text {
     background-color: green;
     border: 1px solid black;
 
@@ -209,7 +218,7 @@ footer {
 .debug section {
     background-color: rgb(128, 0, 111);
     border: 1px solid black;
-}
+} */
 
 .debug .wave {
     height: 100px;
