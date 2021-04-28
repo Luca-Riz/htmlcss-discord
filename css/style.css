@@ -153,17 +153,29 @@ main {
 
 main section .img {
     width: 50%;
+}
+
+.left {
     float: left;
 }
 
 main section .text {
     width: 30%;
+}
+
+.right {
     float: right;
 }
 
 main section .text h2 {
     margin-bottom: 50px;
 }
+
+.grey {
+    background-color: #f6f6f6;
+    margin: -10px 0;
+}
+
 
 /* fine section */
 
