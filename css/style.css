@@ -221,6 +221,10 @@ footer nav > div {
     margin: 20px calc(15% / 5) 20px 0;
 }
 
+footer nav .social i{
+    font-size: 30px;
+}
+
 /* inizio ita */
 footer .ita {
     width: 25%;
