@@ -190,6 +190,15 @@ section .center .btn.scarica a {
     color: white;
 }
 
+section .center .stars {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    height: 60px;
+}
+
+
+
 /* fine section */
 
 /* fine main */
